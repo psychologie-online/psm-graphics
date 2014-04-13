@@ -1,3 +1,9 @@
+# Plugins must be at the top
+##
+# Modular scale
+# https://github.com/Team-Sass/modular-scale
+require 'modular-scale'
+
 # Compass is a great cross-platform tool for compiling SASS.
 # This compass config file will allow you to
 # quickly dive right in.

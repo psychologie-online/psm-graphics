@@ -2,30 +2,30 @@
   Fonty
 */
 @import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic);
-/* line 16, ../scss/app.scss */
+/* line 19, ../scss/app.scss */
 *, body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Gentium Book Basic', serif;
 }
 
-/* line 19, ../scss/app.scss */
+/* line 22, ../scss/app.scss */
 header.contain-to-grid {
   z-index: 900;
 }
 
-/* line 22, ../scss/app.scss */
+/* line 25, ../scss/app.scss */
 div.wrap {
   min-height: 100%;
   background: #f2f2f2;
 }
 
-/* line 26, ../scss/app.scss */
+/* line 29, ../scss/app.scss */
 div.wrap {
   width: 100%;
   overflow: hidden;
 }
 
 /* Bugs? */
-/* line 31, ../scss/app.scss */
+/* line 34, ../scss/app.scss */
 .cesty-quantity {
   background-color: #c0392b;
   border-radius: 10px;
@@ -43,7 +43,7 @@ div.wrap {
 /*
   Off Canvas
 */
-/* line 49, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 .wrap,
 .contain-to-grid {
   /* Super-compliant Transition :) */
@@ -74,7 +74,7 @@ div.wrap {
   transform: translate3d(0px, 0, 0);
 }
 
-/* line 81, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .wrap.menu-open,
 .contain-to-grid.menu-open {
   -webkit-transform: translate3d(-25rem, 0, 0);
@@ -84,7 +84,7 @@ div.wrap {
   transform: translate3d(-25rem, 0, 0);
 }
 
-/* line 88, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .off-canvas.menu {
   position: fixed;
   top: 0px;
@@ -100,7 +100,7 @@ div.wrap {
   box-sizing: border-box;
 }
 
-/* line 101, ../scss/app.scss */
+/* line 104, ../scss/app.scss */
 .off-canvas.menu h3 {
   color: white;
   margin-top: 1.25rem;
@@ -108,7 +108,7 @@ div.wrap {
   line-height: 1;
 }
 
-/* line 109, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 .off-canvas.menu p,
 .off-canvas.menu h4,
 .navod li {
@@ -116,18 +116,18 @@ div.wrap {
   color: gray;
 }
 
-/* line 113, ../scss/app.scss */
+/* line 116, ../scss/app.scss */
 .off-canvas.menu ul#items > li:hover .icon-menu {
   cursor: move;
 }
 
-/* line 117, ../scss/app.scss */
+/* line 120, ../scss/app.scss */
 .off-canvas.menu .navod li,
 .navod h4 {
   color: #222;
 }
 
-/* line 121, ../scss/app.scss */
+/* line 124, ../scss/app.scss */
 .icon-menu,
 .icon-heart-broken {
   font-size: 1.5rem;
